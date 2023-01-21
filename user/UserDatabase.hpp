@@ -11,7 +11,7 @@
 class UserDatabase {
 private:
     std::unordered_map<std::string, User> users;
-    std::string database = "resources.txt";
+    std::string database = "users.txt";
     void readFromDatabase();
 public:
     UserDatabase(std::string UserDatabase);
