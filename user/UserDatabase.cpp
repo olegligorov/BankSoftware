@@ -47,7 +47,7 @@ UserDatabase::UserDatabase(std::string database)
 
 UserDatabase::UserDatabase()
 {
-    this->database = "resources.txt";
+    this->database = "users.txt";
     readFromDatabase();
 }
 
